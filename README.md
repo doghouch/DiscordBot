@@ -9,14 +9,30 @@ The software is written AS-IS and no guarantees will be provided if (_cough_) yo
 ## Installation 
 Installation is relatively simple. You'll need to have `NodeJS` installed (obviously) and `screen`.
 
-When you do have them installed, all you need to to is open a screen up and run the bot:
+First, we must create a folder to hold the bot:
 
     cd ~
     mkdir bot
     
-    screen S bot
+Now, we must download the bot (**current version:** 1.0):
+
+    wget https://github.com/doghouch/discordSlav/archive/v1.0.zip
+    unzip v1.0.zip
+    
+Edit bot.js to have the correct token:
+    
+    nano bot.js
+
+You will see `YOUR_DISCORD_TOKEN` at the bottom of `bot.js`. Modify that to your Discord token. (**WARNING:** I am not responsible if your account is stolen if you share this token)
+
+Now, you can create a `screen` and run the bot:
+
+    screen -S bot
     node bot.js
 
+## Support
+
+This project will not be actively maintained. If you have any problems or issues, feel free to send a message to `admin+bot@dawgy.pw`, though.
 
 Have fun!
 - dawgy
