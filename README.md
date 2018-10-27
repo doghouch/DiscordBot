@@ -1,3 +1,6 @@
+# IMPORTANT NOTE
+This bot is against Discord's TOS. Please use this bot at **your own risk** -- your account may be terminated if you are caught.
+
 # discordSlav
 The discordSlav will allow you to set custom commands and who it can interact to (e.g. your friends).
 
