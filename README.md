@@ -1,13 +1,13 @@
 # IMPORTANT NOTE
 This bot is against Discord's TOS. Please use this bot at **your own risk** -- your account may be terminated if you are caught.
 
-# discordSlav
-The discordSlav will allow you to set custom commands and who it can interact to (e.g. your friends).
+# DiscordBot
+DiscordBot will allow you to set custom commands and who it can interact to (e.g. your friends).
 
 It is written purely in NodeJS and has 2 dependencies: **node-cmd** and **Discord.js**.
 
 ## Warning
-The software is written AS-IS and no guarantees will be provided if (_cough_) your server gets compromised. It is HIGHLY suggested that you run this under an unprivileged user.
+The software is written AS-IS and no guarantees will be provided if (_cough_) your server gets compromised. **I CANNOT STRESS HOW IMPORTANT IT IS TO RUN ANYTHING THAT HANDLES INPUT UNDER AN UNPRIVELEGED USER.**
 
 ## Installation 
 Installation is relatively simple. You'll need to have `NodeJS` installed (obviously) and `screen`.
